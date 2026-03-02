@@ -1,0 +1,32 @@
+# Secrets
+.env
+*.key
+*.pem
+config.php
+wp-config.php
+
+# Logs and caches
+*.log
+cache/
+tmp/
+temp/
+sessions/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# PHP deps
+vendor/
+
+# WordPress (often huge / not yours)
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

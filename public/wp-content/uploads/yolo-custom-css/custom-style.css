@@ -1,0 +1,175 @@
+	
+@supports(--css:variables){
+	:root{
+	    --layout_site_width: 			90%;
+	    --layout_site_max_width: 		1200px;
+
+	    --text_color: 				#606060;
+
+	    --text_color_lighten_5: 	#6d6d6d;
+	    --text_color_lighten_10: 	#7a7a7a;
+	    --text_color_lighten_15: 	#868686;
+	    --text_color_lighten_20: 	#939393;
+	    --text_color_lighten_25: 	#a0a0a0;
+	    --text_color_lighten_30: 	#adadad;
+	    --text_color_lighten_35: 	#b9b9b9;
+	    --text_color_lighten_40: 	#c6c6c6;
+	    --text_color_lighten_50: 	#e0e0e0;
+	    --text_color_lighten_60: 	#f9f9f9;
+	    --text_color_lighten_70: 	#ffffff;
+
+	   	--text_color_darken_5: 		#535353;
+	    --text_color_darken_10: 	#474747;
+	    --text_color_darken_15: 	#3a3a3a;
+	    --text_color_darken_20: 	#2d2d2d;
+	    --text_color_darken_25: 	#202020;
+		
+		--text_color_fade_10: 	rgba(96, 96, 96, 0.10);
+		--text_color_fade_20: 	rgba(96, 96, 96, 0.20);
+		--text_color_fade_30: 	rgba(96, 96, 96, 0.30);
+		--text_color_fade_40: 	rgba(96, 96, 96, 0.40);
+		--text_color_fade_50: 	rgba(96, 96, 96, 0.50);
+		--text_color_fade_60: 	rgba(96, 96, 96, 0.60);
+		--text_color_fade_70: 	rgba(96, 96, 96, 0.70);
+		--text_color_fade_80: 	rgba(96, 96, 96, 0.80);
+		--text_color_fade_90: 	rgba(96, 96, 96, 0.90);
+
+	    --primary_color: 			#fdb801;
+
+	    --primary_color_lighten_5: 		#febf19;
+	    --primary_color_lighten_10: 	#fec733;
+	    --primary_color_lighten_15: 	#fece4c;
+	    --primary_color_lighten_20: 	#fed566;
+	    --primary_color_lighten_25: 	#fedc7f;
+
+	   	--primary_color_darken_5: 	#e4a601;
+	    --primary_color_darken_10: 	#ca9301;
+	    --primary_color_darken_15: 	#b18101;
+	    --primary_color_darken_20: 	#976e01;
+	    --primary_color_darken_25: 	#7e5c00;
+		
+		--primary_color_fade_10: 	rgba(253, 184, 1, 0.10);
+		--primary_color_fade_20: 	rgba(253, 184, 1, 0.20);
+		--primary_color_fade_30: 	rgba(253, 184, 1, 0.30);
+		--primary_color_fade_40: 	rgba(253, 184, 1, 0.40);
+		--primary_color_fade_50: 	rgba(253, 184, 1, 0.50);
+		--primary_color_fade_60: 	rgba(253, 184, 1, 0.60);
+		--primary_color_fade_70: 	rgba(253, 184, 1, 0.70);
+		--primary_color_fade_80: 	rgba(253, 184, 1, 0.80);
+		--primary_color_fade_90: 	rgba(253, 184, 1, 0.90);
+
+	    --secondary_color: 	#0195fd;
+	    --secondary_color_darken_20: 	#015997;
+	    
+	    --heading_color: 	#0f0f0f;
+
+	    --heading_color_lighten_20: 	#424242;
+
+	    --heading_color_fade_10: 	rgba(15, 15, 15, 0.10);
+		--heading_color_fade_20: 	rgba(15, 15, 15, 0.20);
+		--heading_color_fade_30: 	rgba(15, 15, 15, 0.30);
+		--heading_color_fade_40: 	rgba(15, 15, 15, 0.40);
+		--heading_color_fade_50: 	rgba(15, 15, 15, 0.50);
+		--heading_color_fade_60: 	rgba(15, 15, 15, 0.60);
+		--heading_color_fade_70: 	rgba(15, 15, 15, 0.70);
+		--heading_color_fade_80: 	rgba(15, 15, 15, 0.80);
+		--heading_color_fade_90: 	rgba(15, 15, 15, 0.90);
+
+	    --menu_font: 				Raleway;
+	    --menu_font_weight: 		700;
+	    --menu_font_size: 			14px;
+	    --sub_menu_font_size: 		15px;
+
+	    --secondary_font: 			Raleway;
+	    --secondary_font_weight: 	400;
+	    --secondary_font_size: 		14px;
+
+	    --primary_font: 			Roboto;
+	    --primary_font_weight: 		400;
+	    --primary_font_size: 		15px;
+
+	    --page_title_bg_color: 			#fff;
+	    --page_title_overlay_color: 	rgba(10,10,10,0.5);
+	    --page_title_overlay_opacity: 	0;
+	    --page_title_color: 			#fff;
+	    --page_title_margin_top: 		0;
+	    --page_title_margin_bottom: 	70px;
+	    --page_title_height: 			300px;
+
+	    --main_menu_height: 	80px;
+
+	    --logo_mobile_max_height: 	120px;
+	    --logo_mobile_padding: 		25px;
+	    --main_menu_mobile_height: 	50px;
+	
+		--header_1_nav_layout_padding: 	100px;
+		--header_2_nav_layout_padding: 	100px;
+		--header_3_nav_layout_padding: 	100px;
+		--header_4_nav_layout_padding: 	100px;
+		--header_5_nav_layout_padding: 	100px;
+		--header_6_nav_layout_padding: 	100px;
+
+		--header_1_nav_distance: 	20px;
+		--header_2_nav_distance: 	20px;
+		--header_3_nav_distance: 	20px;
+		--header_4_nav_distance: 	20px;
+		--header_5_nav_distance: 	20px;
+		--header_6_nav_distance: 	15px;
+
+		--home_preloader_bg_color: 		#000;
+		
+		--top_bar_bg_color: 		#fff;
+		--top_bar_text_color: 		#0f0f0f;
+		--top_bar_layout_padding: 	100px;
+
+		--logo_padding_top: 	10px;
+		--logo_padding_bottom: 	10px;
+
+		--menu_sub_bg_color: 	#fff;
+		--menu_sub_bg_color_darken_7: 		#ededed;
+		--menu_sub_bg_color_darken_15: 		#d9d9d9;
+		--menu_sub_bg_color_lighten_7: 		#ffffff;
+		--menu_sub_bg_color_lighten_15: 	#ffffff;
+		--menu_sub_text_color: 	#333;
+
+		--header_1_nav_bg_color: 	#171717;
+		--header_1_nav_text_color: 	#ffffff;
+		--header_1_height: 			130px;
+
+		--header_2_nav_bg_color: 	#fafafa;
+		--header_2_nav_text_color: 	#424242;
+		--header_2_height: 			120px;
+
+		--header_3_nav_bg_color: 	#ffffff;
+		--header_3_nav_text_color: 	#424242;
+		--header_3_height: 			120px;
+
+		--header_4_nav_bg_color: 	transparent;
+		--header_4_nav_text_color: 	#ffffff;
+		--header_4_height: 			130px;
+
+		--header_5_nav_bg_color: 	transparent;
+		--header_5_nav_text_color: 	#fff;
+		--header_5_height: 			80px;
+
+		--header_6_nav_bg_color: 	#333333;
+		--header_6_nav_text_color: 	#ffffff;
+		--header_6_height: 			120px;
+
+		--mobile_background_color: 		#404040;
+		--mobile_text_color: 				#ffffff;
+		--mobile_text_color_fade_60: 		rgba(255, 255, 255, 0.60);
+
+		--mobile_page_title_height: 	140px;
+
+		--headersidebar_nav_bg_color: 		#ffffff;
+		--headersidebar_nav_bg_color_lighten_10: 		#ffffff;
+
+		--headersidebar_nav_text_color: 	#424242;
+		--headersidebar_nav_text_color_fade_60: 	rgba(66, 66, 66, 0.60);
+		--headersidebar_nav_text_color_fade_85: 	rgba(66, 66, 66, 0.85);
+
+		--headersidebar_sidebar_width: 		300px;
+
+	}
+}
