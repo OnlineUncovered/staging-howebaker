@@ -31,3 +31,4 @@ wp-content/upgrade/
 .vscode/
 .idea/
 .lesshst
+.ssh/
