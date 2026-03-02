@@ -30,3 +30,4 @@ wp-content/upgrade/
 .DS_Store
 .vscode/
 .idea/
+.lesshst
